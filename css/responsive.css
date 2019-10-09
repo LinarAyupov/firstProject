@@ -1,0 +1,38 @@
+@media screen and (max-width: 990px) {
+	html {
+		font-size: 85%;
+	}
+}
+@media  screen and (max-width: 768px) {
+	html {
+		font-size: 80%;
+	}
+	.nav__list {
+		display: none;
+	}	
+	.nav__menu,
+	.nav__list-open {
+		display: block;
+		transition: .3s;
+	}
+	.nav__item-link {
+		text-align: center;
+	}
+	.nav__item-link:hover {
+		background: #817D8E
+	}
+
+}
+@media screen and (max-width: 600px) {
+	.header__wrapper {
+		flex-direction: column;
+		justify-content: center;
+	}
+	.header__contact {
+		margin-top: 1rem;
+		text-align: center;
+	}
+	.intro__slider-item {
+		padding-top: 23rem;
+	}
+}

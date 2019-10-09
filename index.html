@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>First project</title>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="lib/owlcarousel/owl.carousel.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+</head>
+<body>
+	<!--Sprites start-->
+	<svg style = "display: none;">
+		<symbol id = "facebook"  viewBox="0 0 96.124 96.123">
+			<g>
+				<path d="M72.089,0.02L59.624,0C45.62,0,36.57,9.285,36.57,23.656v10.907H24.037c-1.083,0-1.96,0.878-1.96,1.961v15.803
+				c0,1.083,0.878,1.96,1.96,1.96h12.533v39.876c0,1.083,0.877,1.96,1.96,1.96h16.352c1.083,0,1.96-0.878,1.96-1.96V54.287h14.654
+				c1.083,0,1.96-0.877,1.96-1.96l0.006-15.803c0-0.52-0.207-1.018-0.574-1.386c-0.367-0.368-0.867-0.575-1.387-0.575H56.842v-9.246
+				c0-4.444,1.059-6.7,6.848-6.7l8.397-0.003c1.082,0,1.959-0.878,1.959-1.96V1.98C74.046,0.899,73.17,0.022,72.089,0.02z"/>
+			</g>
+		</symbol>
+		<symbol id = "twitter"  viewBox="0 0 612 612">
+			<g>
+				<path d="M612,116.258c-22.525,9.981-46.694,16.75-72.088,19.772c25.929-15.527,45.777-40.155,55.184-69.411
+			c-24.322,14.379-51.169,24.82-79.775,30.48c-22.907-24.437-55.49-39.658-91.63-39.658c-69.334,0-125.551,56.217-125.551,125.513
+			c0,9.828,1.109,19.427,3.251,28.606C197.065,206.32,104.556,156.337,42.641,80.386c-10.823,18.51-16.98,40.078-16.98,63.101
+			c0,43.559,22.181,81.993,55.835,104.479c-20.575-0.688-39.926-6.348-56.867-15.756v1.568c0,60.806,43.291,111.554,100.693,123.104
+			c-10.517,2.83-21.607,4.398-33.08,4.398c-8.107,0-15.947-0.803-23.634-2.333c15.985,49.907,62.336,86.199,117.253,87.194
+			c-42.947,33.654-97.099,53.655-155.916,53.655c-10.134,0-20.116-0.612-29.944-1.721c55.567,35.681,121.536,56.485,192.438,56.485
+			c230.948,0,357.188-191.291,357.188-357.188l-0.421-16.253C573.872,163.526,595.211,141.422,612,116.258z"/>
+			</g>
+		</symbol>
+		<symbol id = "linkedin"  viewBox="0 0 430.117 430.118">
+			<g>
+				<path d="M398.355,0H31.782C14.229,0,0.002,13.793,0.002,30.817v368.471
+		c0,17.025,14.232,30.83,31.78,30.83h366.573c17.549,0,31.76-13.814,31.76-30.83V30.817C430.115,13.798,415.904,0,398.355,0z
+		 M130.4,360.038H65.413V165.845H130.4V360.038z M97.913,139.315h-0.437c-21.793,0-35.92-14.904-35.92-33.563
+		c0-19.035,14.542-33.535,36.767-33.535c22.227,0,35.899,14.496,36.331,33.535C134.654,124.415,120.555,139.315,97.913,139.315z
+		 M364.659,360.038h-64.966V256.138c0-26.107-9.413-43.921-32.907-43.921c-17.973,0-28.642,12.018-33.327,23.621
+		c-1.736,4.144-2.166,9.94-2.166,15.728v108.468h-64.954c0,0,0.85-175.979,0-194.192h64.964v27.531
+		c8.624-13.229,24.035-32.1,58.534-32.1c42.76,0,74.822,27.739,74.822,87.414V360.038z M230.883,193.99
+		c0.111-0.182,0.266-0.401,0.42-0.614v0.614H230.883z" />
+			</g>
+		</symbol>
+	</svg>
+	<!--Sprites end-->
+	<!--Header start-->
+	<header class="header">
+		<div class="wrapper">
+			<div class="header__wrapper">
+				<div class="header__logo">
+					<a href="#" class="header__logo-link">
+						<img class="header__logo-img" src="./images/it-event.png" alt="logo">
+					</a>
+				</div>
+				<div class="header__contact">
+						<div class="header__phone-number">
+							<a href="tel:+79507986799" class="phone__number">+ 7 (950) 798-67-99</a>
+						</div>
+						<div class="header__email-address">
+							<a href="mailto:a_linar94@mail.ru" class="email__address">a_linar94@mail.ru</a>
+						</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!--Header end-->
+
+	<!--Navbar start-->
+	<nav class="nav">
+		<div class="wrapper">
+			<div class="nav__menu">
+				<button data-target="#nav__list-menu"  type="button" class="nav__menu-btn">
+					<span class="nav__menu-btn--line"></span>
+					<span class="nav__menu-btn--line"></span>
+					<span class="nav__menu-btn--line"></span>
+				</button>
+			</div>
+			<ul class="nav__list" id="nav__list-menu">
+				<li class="nav__item">
+					<a href="#" class="nav__item-link">Main</a>
+				</li>
+				<li class="nav__item">
+					<a href="#" class="nav__item-link">News</a>
+				</li>
+				<li class="nav__item">
+					<a href="#" class="nav__item-link">New</a>
+				</li>
+				<li class="nav__item">
+					<a href="#" class="nav__item-link">Dalivery</a>
+				</li>
+				<li class="nav__item">
+					<a href="#" class="nav__item-link">About</a>
+				</li>
+				<li class="nav__item">
+					<a href="#" class="nav__item-link">Contact</a>
+				</li>
+			</ul>
+		</div>
+		</div>
+	</nav>
+	<!--Navbar end-->
+
+	<!--Intro slider start-->
+	<section class="intro">
+		<div class="owl-carousel intro__slider">
+			<div class="intro__slider-item" style="background-image: url(images/slides/image-1.jpg);"></div>
+			<div class="intro__slider-item" style="background-image: url(images/slides/image-2.jpg);"></div>
+			<div class="intro__slider-item" style="background-image: url(images/slides/image-3.jpg);"></div>
+		</div>	
+	</section>
+	<!--Intro slider end-->
+	<!--Advertising cards start-->
+	<section class="advertising">
+		<div class="wrapper">
+				<h1 class="advertising__titel">
+					Your advertisement 
+				</h1>
+			<div class="advertising__wrapper">
+				<div class="advertising__card">
+					<div class="advertising__card-front">
+						<span>Your advertisement could be here</span>
+					</div>
+					<div class="advertising__card-back">
+						<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dolor est, ornare eu consequat a, luctus quis nunc. Etiam sit amet metus nisl. Etiam non bibendum mi, vel finibus magna. Donec varius eget neque eget volutpat. Vivamus molestie, quam in hendrerit mollis, justo ante vehicula turpis, a ullamcorper erat arcu nec lectus. Aliquam ut pharetra ipsum. Sed mi sapien, luctus posuere sem a, vulputate lacinia mauris. Etiam pellentesque varius scelerisque.</span>
+					</div>
+				</div>
+				<div class="advertising__card">
+					<div class="advertising__card-front">
+						<span>Your advertisement could be here</span>
+					</div>
+					<div class="advertising__card-back">
+						<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dolor est, ornare eu consequat a, luctus quis nunc. Etiam sit amet metus nisl. Etiam non bibendum mi, vel finibus magna. Donec varius eget neque eget volutpat. Vivamus molestie, quam in hendrerit mollis, justo ante vehicula turpis, a ullamcorper erat arcu nec lectus. Aliquam ut pharetra ipsum. Sed mi sapien, luctus posuere sem a, vulputate lacinia mauris. Etiam pellentesque varius scelerisque.</span>
+					</div>
+				</div>
+				<div class="advertising__card">
+					<div class="advertising__card-front">
+						<span>Your advertisement could be here</span>
+					</div>
+					<div class="advertising__card-back">
+						<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dolor est, ornare eu consequat a, luctus quis nunc. Etiam sit amet metus nisl. Etiam non bibendum mi, vel finibus magna. Donec varius eget neque eget volutpat. Vivamus molestie, quam in hendrerit mollis, justo ante vehicula turpis, a ullamcorper erat arcu nec lectus. Aliquam ut pharetra ipsum. Sed mi sapien, luctus posuere sem a, vulputate lacinia mauris. Etiam pellentesque varius scelerisque.</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--Advertising cards end-->
+	<!--Footer start--->
+	<footer class="footer">
+		<div class="wrapper">
+			<div class="footer__share">
+					<div class="footer__share-social">
+							<a class="social__item" href="#" target="blank">
+								<svg class = "social__icon">
+									<use xLink:href="#facebook"></use>
+								</svg>
+							</a>
+							<a class="social__item" href="#" target="blank">
+								<svg class = "social__icon">
+									<use xLink:href="#twitter"></use>
+								</svg>
+							</a>
+							<a class="social__item" href="#" target="blank">
+								<svg class = "social__icon">
+									<use xLink:href="#linkedin"></use>
+								</svg>
+							</a>
+					</div>
+			</div>
+			<div class="footer__copyright">
+				Линар Аюпов &copy; 2019 <br>
+				<a href="#" class="footer__copyright-link">nepridumal.kak</a>
+			</div>
+		</div>
+	</footer>
+	<!--Footer end-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="lib/owlcarousel/owl.carousel.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
